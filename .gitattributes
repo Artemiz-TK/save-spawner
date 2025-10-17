@@ -1,0 +1,5 @@
+* text=auto
+
+*.shader linguist-detection=false
+*.hlsl linguist-detection=false
+*.cginc linguist-detection=false
