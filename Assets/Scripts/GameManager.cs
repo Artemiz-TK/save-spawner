@@ -12,8 +12,6 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
-        // Debug.Log(Application.dataPath + "/Scripts/save.json");
-        //Para carregar automaticamente ao iniciar
         GameObject player = GameObject.FindWithTag("Player");
         CarregarJogo(player);
     }

@@ -3,7 +3,6 @@ using System.IO;
 
 public static class SaveSystem
 {
-    // private static string path =  "C:/Users/20231170150056/'My project/Assets/Scripts/save.json";
     private static string path = Application.dataPath + "/Scripts/save.json";
 
     public static void SalvarJogo(Vector3 posicao, int pontos)
